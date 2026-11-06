@@ -59,9 +59,11 @@ The script retrieves the records, performs the analysis, prints a summary, and s
 - `city_counts.csv`: Customer counts grouped by city and sorted by descending count.
 - `customer_distribution.png`: A bar chart showing the selected distribution.
 
-## Findings
+### Findings
 
-*To be completed after running the analysis and verifying the actual results.*
+1. **Customer records:** The API returned 10 customer records representing 10 unique cities.
+2. **City distribution:** Each city had one customer, so there was no single city with a higher customer count than the others.
+3. **Email domains:** The `biz` suffix was the most frequent, appearing 3 times among the 10 email addresses. There were 8 distinct email suffixes in total.
 
 ## Assumptions and Limitations
 
